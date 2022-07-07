@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+}
+
+a,button:hover{
+    cursor: pointer;
+}
+
+.toFlexFirstHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    color: white;
+    max-width: 100%;
+}
+
+.first-header{
+    background-color: #1baed7;
+}
+
+.part-one{
+    width: 75%;
+    margin: auto;
+    font-size: 0.6rem;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+}
+
+.part-one .toMarginHeader li{
+    margin-right: 2rem;
+}
+
+.toPaddingHeader li{
+    padding: 01rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#button-orange{
+    background-color: #fcb913;
+    cursor: pointer;
+}
+
+.second-header{
+    background-color: #00bbe4;
+    box-sizing: border-box;
+}
+
+.toFlexSecondHeader{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 6rem;
+}
+
+#searchButton{
+    width: 2rem;
+}
+
+#locked{
+    width: 1.5rem;
+}
+
+.part-two{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.toMarginSecondHeader{
+    margin-right: 2rem;
+}
+
+header input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    outline: none;
+    width: 13rem;
+}
+
+header input::placeholder{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.carousel{
+    background-image: url(img/carousel.jpg);
+    max-width: 100vw;
+    height: 80vh;
+}
+
+#popup{
+    background-color: #fcb913;
+    position: relative;
+    top: 75vh;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+#popup p{
+    margin-inline-start: 12rem;
+    padding: 0.9rem;
+    color: white;
+    font-weight: 600;
+}
+
+.our-products{
+    background-color: #f3f3f3;
+    padding: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 12.5rem;
+}
+
+.our-products h2{
+    font-size: 1.7rem;
+    color: #888888;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
+
+.our-products h3{
+    color: #23b9e2;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    max-width: 40rem;
+    font-size: 4rem;
+}
+
+.card{
+    max-width: 17vw;
+}
+
+.card img{
+    max-width: 17vw;
+    border-radius: 5px;
+}
+
+.card h3{
+    font-size: 2.1rem;
+    color: #23b9e2;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.card button{
+    width: 17vw;
+    background-color: #fcb913;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.arrow{
+    width: 4rem;
+    background-color: transparent;
+    border: none;
+}
+
+.text-card{
+    height: 13rem;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 9rem;
+    padding-left: 9rem;
+    transform: translateY(-9rem);
+}
+
+.points{
+    background-image: url(https://www.crefisa.com.br/wp-content/uploads/2019/05/fundomaps.png);
+    background-color: #f5f5f5;
+    padding: 6rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+
+.toFlexPoints{
+    display: flex;
+    gap: 5rem;
+}
+
+.toFlexPoints h2{
+    font-size: 1rem;
+    color: #888888;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.toFlexPoints h3{
+    color: #23b9e2;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    max-width: 40rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.toFlexPoints p{
+    width: 15.5rem;
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.toFlexPoints input{
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.textPoints, .inputPoints{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.inputPoints{
+    align-items: center;
+}
+
+.inputPoints button{
+    padding: 1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#locationPoints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background: #f5f5f5;
+    border-color: #f5f5f5;
+    border-style: solid;
+    text-decoration: underline;
+    padding: 1.5rem;
+}
+
+#locationPoints img{
+    width: 1rem;
+}
+
+.pointsButton{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+#searchLocation{
+    background-color: #fcb913;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.loan{
+    display: flex;
+    background-color: #007aff;
+    color: white;
+    align-items: center;
+    height: 50vh;
+}
+
+.loan img{
+    height: 50vh;
+}
+
+.loan h2{
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.loan h3{
+    max-width: 20rem;
+    font-size: 3.7rem;
+    font-weight: lighter;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.loan p{
+    line-height: 1.5;
+    max-width: 17rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.loanSecond{
+    margin-left: 5rem;
+}
+
+.loanThird input{
+    width: 100%;
+    line-height: 1.5;
+    color: #495057;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.loanThirdDiv{
+    display: flex;
+    gap: 1rem;
+}
+
+.loanThird button{
+    width: 100%;
+    padding: 0.8rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.loanThird{
+    padding: 5rem;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.apps h3{
+    font-size: 1rem;
+    color: #888888;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.apps h2{
+    color: #23b9e2;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    max-width: 15rem;
+    line-height: 1;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#appsText{
+    max-width: 22rem;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.app-logo img{
+    width: 5rem;
+}
+
+.app-logo p{
+    max-width: 5rem;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #005480;
+    line-height: 1.8;
+    margin: auto;
+}
+
+.app-logo{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+section.apps{
+    background-color: #f8f8f8;
+}
+
+.cellphone img{
+    width: 15rem;
+    transform: translateY(6rem);
+    
+}
+
+.cellphone{
+    z-index: 1;
+}
+
+.brand{
+    display: flex;
+    background-color: #007aff;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+}
+
+.brandImages{
+    display: flex;
+    gap: 1rem;
+}
+
+.brandImages div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.brandImages img{
+    object-fit: cover;
+    object-position: center;
+    width: 15rem;
+}
+
+.imageLargerBrand{
+    height: 20rem;
+}
+
+.imageBrand{
+    height: 12rem;
+}
+
+.brand li img{
+    width: 3rem;
+}
+
+.brand ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.brand h2{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.5rem;
+}
+
+.brand h3{
+    letter-spacing: 0.5px;
+    max-width: 35rem;
+    line-height: 1;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+
+.first-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border-bottom: 1px solid #ced4da;
+    gap: 3rem;
+}
+
+.card-first-footer{
+    flex: 1;
+}
+
+.card-first-footer h5{
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 1.5rem;
+}
+
+.card-first-footer p{
+    font-size: 0.9rem;
+    color: #888888;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.card-first-footer a, .card-first-footer li{
+    color: #888888;
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-first-footer ul, .card-first-footer li div{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone a{
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    color: #23b9e2;
+    font-weight: 600;
+}
+
+.arrow-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.second-footer{
+    display: flex;
+    padding: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    gap: 4rem;
+}
+
+.second-footer h5{
+    font-size: 1rem;
+    color: #23b9e2;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.second-footer p, .second-footer a{
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #888888;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.second-footer a{
+    text-decoration: underline;
+    color: #00bbe4;
+}
+
+.second-footer .cnpj{
+    color: #aaaaaa;
+    margin-bottom: 1.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: #24b9e3;
+    color: white;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    gap: 2rem;
+}
+
+footer div p{
+    font-size: 0.8rem;
+}
+
+.whats{
+    display: flex;
+    gap: 1rem;
+    background-color: #1dc33b;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    padding: 0.8rem;
+    right: 2rem;
+}
+
+.whats img{
+    width: 2.5rem;
+}
+
+.carousel button{
+    background-color: #fcb913;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+}
